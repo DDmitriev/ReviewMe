@@ -91,6 +91,7 @@ exports.fetchGooglePlayReviews = function (config, appInformation, callback) {
 
     var jwt;
     try {
+        console.log("Google Play client_id " + publisherJson.client_id);
         jwt = new google.auth.JWT(publisherJson.client_id, null, publisherJson.private_key, scopes, null);
     } catch (e) {
         console.warn(e)
