@@ -35,7 +35,7 @@
   "dependencies": {
     "android-versions": "^1.4.0",
     "commander": "^4.1.1",
-    "google-play-scraper": "^9.0.2",
+    "google-play-scraper": "https://github.com/facundoolano/google-play-scraper.git#main",
     "googleapis": "^52.1.0",
     "request": "^2.88.0"
   }
